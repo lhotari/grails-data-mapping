@@ -56,7 +56,7 @@ import org.springframework.transaction.support.TransactionSynchronizationManager
  * @author Graeme Rocher
  * @since 1.0
  */
-//@CompileStatic
+@CompileStatic
 class HibernateGormStaticApi<D> extends GormStaticApi<D> {
     private static final EMPTY_ARRAY = [] as Object[]
 
